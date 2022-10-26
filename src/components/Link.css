@@ -1,0 +1,9 @@
+/* .about, .error, .users {
+	margin: 6px
+} */
+
+.link{
+	display: flex;
+	justify-content: space-around;
+}
+
