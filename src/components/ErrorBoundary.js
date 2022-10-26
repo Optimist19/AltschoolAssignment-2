@@ -29,6 +29,11 @@ import React from "react";
 
 // export default ErrorBoundary;
 
+/*The above error boundary component is the one that comes with react while the one below is another package installed to be able to apply in our app.
+Note, the line two isn't supposed to be called here because we are not wrapping our app here.*/
+
+
+
 function ErrorSample({error}){
 	return(
 		<div role = "alert">
